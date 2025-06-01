@@ -11,7 +11,7 @@ let numberOfGuesses = 0;
 
 while (guess != number) {
   if (guess > number) {
-    guess = prompt('Много, попробуй ещё раз');
+    guess = prompt('Много, попробуй ещё раз!');
     numberOfGuesses = numberOfGuesses + 1;
   }
   if (guess < number) {
